@@ -134,7 +134,7 @@ lambda-web = { workspace = true, optional = true }
 log.workspace = true
 martin-core.workspace = true
 martin-tile-utils.workspace = true
-mbtiles.workspace = true
+mbtiles = { workspace = true, optional = true }
 num_cpus.workspace = true
 object_store = { workspace = true, optional = true }
 postgis = { workspace = true, optional = true }
